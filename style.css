@@ -1,0 +1,24 @@
+/* Focus Mode Styles */
+body.focus-mode {
+    background-color: #f0f0f0;
+    filter: grayscale(100%);
+}
+
+/* Personalized Content Section */
+#personalized-content {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#personalized-content h2 {
+    margin-top: 0;
+}
+
+#personalized-content p {
+    font-size: 1.1em;
+}

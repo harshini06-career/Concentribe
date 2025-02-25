@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConcenTribe - Your AI News Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="google-signin-client_id" content="175813190184-9rn7tj2sdc3bu0cmluvo87cto9s6g99f.apps.googleusercontent.com">
+</head>
+<body>
+    <header>
+        <h1>ConcenTribe</h1>
+        <p>AI-Powered Personalized News Platform</p>
+        <div class="g-signin2" data-onsuccess="onSignIn"></div>
+    </header>
+
+    <main>
+        <!-- Focus Mode Toggle -->
+        <button id="focus-mode-toggle">Enable Focus Mode</button>
+
+        <!-- News Section -->
+        <section id="news-section">
+            <h2>Daily News</h2>
+            <ul id="news-list">
+                <!-- News articles will be dynamically added here -->
+            </ul>
+        </section>
+
+        <!-- User Interests -->
+        <section id="personalized-content">
+            <h2>Personalized Feed</h2>
+            <p>Topics you like: <span id="user-topics">None selected</span></p>
+            <button id="set-topics">Set Your Interests</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 ConcenTribe. All rights reserved.</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
